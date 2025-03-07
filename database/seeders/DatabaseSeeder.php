@@ -20,8 +20,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        $this->call([
-            LeagueSeeder::class,
-        ]);
+//        $this->call([
+//            LeagueSeeder::class,
+//        ]);
     }
 }

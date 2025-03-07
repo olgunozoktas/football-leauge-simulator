@@ -28,11 +28,6 @@ class FixtureService
         // Clear existing fixtures
         Fixture::truncate();
 
-        // Define our fixture structure
-        $fixturesPerWeek = 6;
-        $totalWeeks = 4;
-        $totalFixtures = 24; // 6 fixtures per week * 4 weeks
-
         $teamsArray = $teams->toArray();
         $teamCount = count($teamsArray);
 
@@ -79,23 +74,65 @@ class FixtureService
             ];
         }
 
-        // Shuffle fixtures to create variety
-        shuffle($allPossibleFixtures);
+        $firstHalfFixtures = array_slice($allPossibleFixtures, 0, $fixtureCount);
+        $secondHalfFixtures = array_slice($allPossibleFixtures, $fixtureCount);
 
-        // Distribute fixtures across weeks
-        $fixtureCount = 0;
-        foreach ($allPossibleFixtures as $fixture) {
-            if ($fixtureCount < $totalFixtures) {
-                $week = floor($fixtureCount / $fixturesPerWeek) + 1;
+        $weeklyFixtures = [];
+        $weeksFirstHalf = $teamCount - 1;
 
+        for ($week = 1; $week <= $weeksFirstHalf; $week++) {
+            $weeklyFixtures[$week] = [];
+            $teamsPlayingThisWeek = [];
+
+            // Try to assign fixtures to this week
+            foreach ($firstHalfFixtures as $index => $fixture) {
+                $homeTeamId = $fixture['home_team_id'];
+                $awayTeamId = $fixture['away_team_id'];
+
+                if (in_array($homeTeamId, $teamsPlayingThisWeek) || in_array($awayTeamId, $teamsPlayingThisWeek)) {
+                    continue;
+                }
+
+                $weeklyFixtures[$week][] = $fixture;
+                $teamsPlayingThisWeek[] = $homeTeamId;
+                $teamsPlayingThisWeek[] = $awayTeamId;
+
+                unset($firstHalfFixtures[$index]);
+            }
+
+            $firstHalfFixtures = array_values($firstHalfFixtures);
+        }
+
+        for ($week = $weeksFirstHalf + 1; $week <= $weeksFirstHalf * 2; $week++) {
+            $weeklyFixtures[$week] = [];
+            $teamsPlayingThisWeek = [];
+
+            foreach ($secondHalfFixtures as $index => $fixture) {
+                $homeTeamId = $fixture['home_team_id'];
+                $awayTeamId = $fixture['away_team_id'];
+
+                if (in_array($homeTeamId, $teamsPlayingThisWeek) || in_array($awayTeamId, $teamsPlayingThisWeek)) {
+                    continue;
+                }
+
+                $weeklyFixtures[$week][] = $fixture;
+                $teamsPlayingThisWeek[] = $homeTeamId;
+                $teamsPlayingThisWeek[] = $awayTeamId;
+
+                unset($secondHalfFixtures[$index]);
+            }
+
+            $secondHalfFixtures = array_values($secondHalfFixtures);
+        }
+
+        foreach ($weeklyFixtures as $week => $fixtures) {
+            foreach ($fixtures as $fixture) {
                 Fixture::query()->create([
                     'week' => $week,
                     'home_team_id' => $fixture['home_team_id'],
                     'away_team_id' => $fixture['away_team_id'],
                     'played' => false,
                 ]);
-
-                $fixtureCount++;
             }
         }
 

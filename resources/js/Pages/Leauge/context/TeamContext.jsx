@@ -180,6 +180,38 @@ export const TeamProvider = ({ children }) => {
     }
   };
 
+  const initializeTeams = async () => {
+    try {
+      setLoading(true);
+      setError(null);
+
+      const response = await axios.post('/api/teams/initialize');
+      setTeams(response.data.teams);
+
+      setLoading(false);
+    } catch (err) {
+      setError('Failed to initialize teams');
+      setLoading(false);
+      console.error('Error initializing teams:', err);
+    }
+  };
+
+  const generateFixtures = async () => {
+    try {
+      setLoading(true);
+      setError(null);
+
+      const response = await axios.post('/api/fixtures/generate');
+      setFixtures(response.data.fixtures);
+
+      setLoading(false);
+    } catch (err) {
+      setError('Failed to generate fixtures');
+      setLoading(false);
+      console.error('Error generating fixtures:', err);
+    }
+  };
+
   return (
     <TeamContext.Provider
       value={{
@@ -196,6 +228,8 @@ export const TeamProvider = ({ children }) => {
         updateMatchResult,
         fetchInitialData,
         updatePredictions,
+        initializeTeams,
+        generateFixtures,
       }}
     >
       {children}

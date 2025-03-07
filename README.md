@@ -1,3 +1,9 @@
+## Online Access
+
+You can access live web app at;
+
+https://simulation.olgunportfolio.com
+
 ## Requirements
 
 For run this application, you need:
@@ -15,7 +21,7 @@ Follow these steps for setup application in your local computer.
 First, you must download code to your computer:
 
 ```bash
-git clone https://github.com/olgunozoktas/football-leauge-simulation.git
+git clone https://github.com/olgunozoktas/football-leauge-simulator.git
 cd football-leauge-simulation
 ```
 

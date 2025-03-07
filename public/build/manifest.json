@@ -1,0 +1,360 @@
+{
+  "_createLucideIcon-DyOxXLvW.js": {
+    "file": "assets/createLucideIcon-DyOxXLvW.js",
+    "name": "createLucideIcon",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_index-5WF0uy_J.js": {
+    "file": "assets/index-5WF0uy_J.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-CmhHf1z5.js",
+      "_index-DLIh3Fdr.js"
+    ]
+  },
+  "_index-C4YSIZDO.js": {
+    "file": "assets/index-C4YSIZDO.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-DLIh3Fdr.js"
+    ]
+  },
+  "_index-CmhHf1z5.js": {
+    "file": "assets/index-CmhHf1z5.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_index-DLIh3Fdr.js": {
+    "file": "assets/index-DLIh3Fdr.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login-DYSYczZR.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard-vsZpD2N1.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/tabs.jsx",
+      "resources/js/Pages/Leauge/LeagueTable.jsx",
+      "resources/js/Pages/Leauge/MatchFixtures.jsx",
+      "resources/js/Pages/Leauge/Predictions.jsx",
+      "resources/js/Pages/Leauge/SimulationControls.jsx",
+      "resources/js/Pages/Leauge/context/TeamContext.jsx",
+      "resources/js/Pages/Leauge/FAQ.jsx",
+      "_index-C4YSIZDO.js",
+      "_index-DLIh3Fdr.js",
+      "_index-CmhHf1z5.js",
+      "_index-5WF0uy_J.js",
+      "resources/js/Pages/Leauge/components/ui/card.jsx",
+      "resources/js/Pages/Leauge/components/ui/table.jsx",
+      "resources/js/Pages/Leauge/components/ui/badge.jsx",
+      "resources/js/Pages/Leauge/components/ui/alert.jsx",
+      "resources/js/Pages/Leauge/components/ui/button.jsx",
+      "resources/js/Pages/Leauge/components/FixturesTabs.jsx",
+      "resources/js/Pages/Leauge/components/EditMatchModal.jsx",
+      "resources/js/Pages/Leauge/components/ui/dialog.jsx",
+      "_createLucideIcon-DyOxXLvW.js",
+      "resources/js/Pages/Leauge/components/ui/input.jsx",
+      "resources/js/Pages/Leauge/components/ui/label.jsx",
+      "resources/js/Pages/Leauge/components/ui/progress.jsx",
+      "resources/js/Pages/Leauge/components/ui/accordion.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/FAQ.jsx": {
+    "file": "assets/FAQ-Bii4ejk3.js",
+    "name": "FAQ",
+    "src": "resources/js/Pages/Leauge/FAQ.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/card.jsx",
+      "resources/js/Pages/Leauge/components/ui/accordion.jsx",
+      "_index-CmhHf1z5.js",
+      "_index-5WF0uy_J.js",
+      "_index-DLIh3Fdr.js",
+      "_index-C4YSIZDO.js",
+      "_createLucideIcon-DyOxXLvW.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/LeagueTable.jsx": {
+    "file": "assets/LeagueTable-BviJbk4Z.js",
+    "name": "LeagueTable",
+    "src": "resources/js/Pages/Leauge/LeagueTable.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/card.jsx",
+      "resources/js/Pages/Leauge/components/ui/table.jsx",
+      "resources/js/Pages/Leauge/context/TeamContext.jsx",
+      "resources/js/Pages/Leauge/components/ui/badge.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/MatchFixtures.jsx": {
+    "file": "assets/MatchFixtures-DPNnTLN0.js",
+    "name": "MatchFixtures",
+    "src": "resources/js/Pages/Leauge/MatchFixtures.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/card.jsx",
+      "resources/js/Pages/Leauge/context/TeamContext.jsx",
+      "resources/js/Pages/Leauge/components/ui/alert.jsx",
+      "resources/js/Pages/Leauge/components/ui/button.jsx",
+      "resources/js/Pages/Leauge/components/FixturesTabs.jsx",
+      "_createLucideIcon-DyOxXLvW.js",
+      "resources/js/Pages/Leauge/components/ui/tabs.jsx",
+      "_index-C4YSIZDO.js",
+      "_index-DLIh3Fdr.js",
+      "_index-CmhHf1z5.js",
+      "_index-5WF0uy_J.js",
+      "resources/js/Pages/Leauge/components/ui/badge.jsx",
+      "resources/js/Pages/Leauge/components/EditMatchModal.jsx",
+      "resources/js/Pages/Leauge/components/ui/dialog.jsx",
+      "resources/js/Pages/Leauge/components/ui/input.jsx",
+      "resources/js/Pages/Leauge/components/ui/label.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/Predictions.jsx": {
+    "file": "assets/Predictions-Xjwow9zu.js",
+    "name": "Predictions",
+    "src": "resources/js/Pages/Leauge/Predictions.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/card.jsx",
+      "resources/js/Pages/Leauge/context/TeamContext.jsx",
+      "resources/js/Pages/Leauge/components/ui/progress.jsx",
+      "resources/js/Pages/Leauge/components/ui/button.jsx",
+      "_index-CmhHf1z5.js",
+      "_index-DLIh3Fdr.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/SimulationControls.jsx": {
+    "file": "assets/SimulationControls-DOemDqqd.js",
+    "name": "SimulationControls",
+    "src": "resources/js/Pages/Leauge/SimulationControls.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/card.jsx",
+      "resources/js/Pages/Leauge/components/ui/button.jsx",
+      "resources/js/Pages/Leauge/context/TeamContext.jsx",
+      "_createLucideIcon-DyOxXLvW.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/EditMatchModal.jsx": {
+    "file": "assets/EditMatchModal-YLTbCXDo.js",
+    "name": "EditMatchModal",
+    "src": "resources/js/Pages/Leauge/components/EditMatchModal.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/dialog.jsx",
+      "resources/js/Pages/Leauge/components/ui/button.jsx",
+      "resources/js/Pages/Leauge/components/ui/input.jsx",
+      "resources/js/Pages/Leauge/components/ui/label.jsx",
+      "resources/js/Pages/Leauge/components/ui/alert.jsx",
+      "_createLucideIcon-DyOxXLvW.js",
+      "_index-C4YSIZDO.js",
+      "_index-DLIh3Fdr.js",
+      "_index-CmhHf1z5.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/FixturesTabs.jsx": {
+    "file": "assets/FixturesTabs-DM6tt4FE.js",
+    "name": "FixturesTabs",
+    "src": "resources/js/Pages/Leauge/components/FixturesTabs.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Leauge/components/ui/tabs.jsx",
+      "resources/js/Pages/Leauge/components/ui/badge.jsx",
+      "resources/js/Pages/Leauge/components/ui/button.jsx",
+      "resources/js/Pages/Leauge/components/EditMatchModal.jsx",
+      "_index-C4YSIZDO.js",
+      "_index-DLIh3Fdr.js",
+      "_index-CmhHf1z5.js",
+      "_index-5WF0uy_J.js",
+      "resources/js/Pages/Leauge/components/ui/dialog.jsx",
+      "_createLucideIcon-DyOxXLvW.js",
+      "resources/js/Pages/Leauge/components/ui/input.jsx",
+      "resources/js/Pages/Leauge/components/ui/label.jsx",
+      "resources/js/Pages/Leauge/components/ui/alert.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/accordion.jsx": {
+    "file": "assets/accordion-CKYAa_CR.js",
+    "name": "accordion",
+    "src": "resources/js/Pages/Leauge/components/ui/accordion.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-CmhHf1z5.js",
+      "_index-5WF0uy_J.js",
+      "_index-DLIh3Fdr.js",
+      "_index-C4YSIZDO.js",
+      "_createLucideIcon-DyOxXLvW.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/alert.jsx": {
+    "file": "assets/alert-CMDAERld.js",
+    "name": "alert",
+    "src": "resources/js/Pages/Leauge/components/ui/alert.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/badge.jsx": {
+    "file": "assets/badge-Dpz20sDk.js",
+    "name": "badge",
+    "src": "resources/js/Pages/Leauge/components/ui/badge.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/button.jsx": {
+    "file": "assets/button-4rc5qBUT.js",
+    "name": "button",
+    "src": "resources/js/Pages/Leauge/components/ui/button.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/card.jsx": {
+    "file": "assets/card-DU3RwQMX.js",
+    "name": "card",
+    "src": "resources/js/Pages/Leauge/components/ui/card.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/dialog.jsx": {
+    "file": "assets/dialog-DmDpxKIV.js",
+    "name": "dialog",
+    "src": "resources/js/Pages/Leauge/components/ui/dialog.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-C4YSIZDO.js",
+      "_index-DLIh3Fdr.js",
+      "_index-CmhHf1z5.js",
+      "_createLucideIcon-DyOxXLvW.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/input.jsx": {
+    "file": "assets/input-C-f-VMEY.js",
+    "name": "input",
+    "src": "resources/js/Pages/Leauge/components/ui/input.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/label.jsx": {
+    "file": "assets/label-BStIJtXr.js",
+    "name": "label",
+    "src": "resources/js/Pages/Leauge/components/ui/label.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-DLIh3Fdr.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/progress.jsx": {
+    "file": "assets/progress-CmBLbQQ5.js",
+    "name": "progress",
+    "src": "resources/js/Pages/Leauge/components/ui/progress.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-CmhHf1z5.js",
+      "_index-DLIh3Fdr.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/table.jsx": {
+    "file": "assets/table-DO82_5y9.js",
+    "name": "table",
+    "src": "resources/js/Pages/Leauge/components/ui/table.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Leauge/components/ui/tabs.jsx": {
+    "file": "assets/tabs-C8LhERY8.js",
+    "name": "tabs",
+    "src": "resources/js/Pages/Leauge/components/ui/tabs.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-C4YSIZDO.js",
+      "_index-CmhHf1z5.js",
+      "_index-5WF0uy_J.js",
+      "_index-DLIh3Fdr.js"
+    ]
+  },
+  "resources/js/Pages/Leauge/context/TeamContext.jsx": {
+    "file": "assets/TeamContext-BO8dtYaE.js",
+    "name": "TeamContext",
+    "src": "resources/js/Pages/Leauge/context/TeamContext.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-DKWSqCLn.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Dashboard.jsx",
+      "resources/js/Pages/Leauge/FAQ.jsx",
+      "resources/js/Pages/Leauge/LeagueTable.jsx",
+      "resources/js/Pages/Leauge/MatchFixtures.jsx",
+      "resources/js/Pages/Leauge/Predictions.jsx",
+      "resources/js/Pages/Leauge/SimulationControls.jsx",
+      "resources/js/Pages/Leauge/components/EditMatchModal.jsx",
+      "resources/js/Pages/Leauge/components/FixturesTabs.jsx",
+      "resources/js/Pages/Leauge/components/ui/accordion.jsx",
+      "resources/js/Pages/Leauge/components/ui/alert.jsx",
+      "resources/js/Pages/Leauge/components/ui/badge.jsx",
+      "resources/js/Pages/Leauge/components/ui/button.jsx",
+      "resources/js/Pages/Leauge/components/ui/card.jsx",
+      "resources/js/Pages/Leauge/components/ui/dialog.jsx",
+      "resources/js/Pages/Leauge/components/ui/input.jsx",
+      "resources/js/Pages/Leauge/components/ui/label.jsx",
+      "resources/js/Pages/Leauge/components/ui/progress.jsx",
+      "resources/js/Pages/Leauge/components/ui/table.jsx",
+      "resources/js/Pages/Leauge/components/ui/tabs.jsx",
+      "resources/js/Pages/Leauge/context/TeamContext.jsx"
+    ],
+    "css": [
+      "assets/app-DrK-umEG.css"
+    ]
+  }
+}
